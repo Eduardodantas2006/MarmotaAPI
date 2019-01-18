@@ -9,7 +9,7 @@ Use use Movies
 
 Create Table Agendamento
 (
-IdAgen Int PRIMARY KEY IDENTITY(1,1),
+IdAgen Int Primary key Identity(1,1),
 Cidade Varchar (20),
 Cinema Varchar(50),
 Sala Int,

@@ -1,3 +1,5 @@
+Script para criação do banco de dados para utilização do API
+
 # MarmotaAPI
 
 1 - Criar banco de dados chamado Movies:

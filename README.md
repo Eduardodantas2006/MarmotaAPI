@@ -7,22 +7,22 @@ Script para criação do banco de dados para utilização do API
 
 Use use Movies
 
-CREATE TABLE Agendamento
+Create Table Agendamento
 (
-IdAgen INT PRIMARY KEY IDENTITY(1,1),
-Cidade VARCHAR (20),
-Cinema VARCHAR(50),
+IdAgen Int PRIMARY KEY IDENTITY(1,1),
+Cidade Varchar (20),
+Cinema Varchar(50),
 Sala Int,
 Sessão int,
-Filme VARCHAR(50)
+Filme Varchar(50)
 );
 
 go
 
-INSERT Agendamento
+Insert Agendamento
 
 (Cidade,Cinema,Sala,Sessão,Filme)
-VALUES
+Values
 ('Rio de Janeiro','Norte Shopping',1,001,'Os Vingadores'),
 ('Espirito Santo','Potigua Shopping', 1,052,'Os Vingadores'),
 ('Minas Gerais' , 'Shopping BH',1,024,'Os Vingadores'),
